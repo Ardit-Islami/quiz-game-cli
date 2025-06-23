@@ -3,6 +3,8 @@
 A beginner Python project that combines web scraping, fuzzy string matching, and a basic Tkinter GUI to create an interactive quiz game.  
 Inspired by [Tech with Tim’s Python projects](https://www.youtube.com/watch?v=8ext9G7xspg), I used this as a way to practice combining multiple Python tools into one program.
 
+I wanted to take a beginner project and take it up one notch to test skills learnt from learning Data Python to make it so the quiz had a better selection of questions and I did not need to think of the questions myself.
+
 ---
 
 ## 📌 Features
