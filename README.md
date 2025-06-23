@@ -1,13 +1,27 @@
 # Quiz Game CLI
 
-A beginner Python project that combines web scraping, fuzzy string matching, and a basic Tkinter GUI to create an interactive quiz game.  
-Inspired by [Tech with Tim’s Python projects](https://www.youtube.com/watch?v=8ext9G7xspg), I used this as a way to practice combining multiple Python tools into one program.
+A beginner Python project designed to take a basic quiz concept up one notch.  
+Inspired by [Tech with Tim’s Python projects](https://www.youtube.com/watch?v=8ext9G7xspg), I wanted to apply skills from learning data-focused Python to make the quiz smarter — by scraping real general knowledge questions rather than inventing them myself.
 
-I wanted to take a beginner project and take it up one notch to test skills learnt from learning Data Python to make it so the quiz had a better selection of questions and I did not need to think of the questions myself.
+This project combines web scraping, fuzzy string matching, and a basic Tkinter GUI into an interactive command-line quiz experience.
 
 ---
 
-## 📌 Features
+## Learning Journey
+
+My goal was to take a beginner project and push it a little further:
+- Instead of manually coming up with questions, I applied beginner data skills (scraping, cleaning) to dynamically pull questions from a public site.
+- I integrated fuzzy logic to make answer evaluation more forgiving, as a way to experiment with string similarity.
+- I combined multiple Python tools (Selenium, fuzzywuzzy, Tkinter) in one project, testing my ability to manage different libraries together.
+
+Through this, I learned:
+- How small additions (like scraping real data) can significantly improve a simple project’s functionality.
+- The importance of error handling when scraping live data.
+- How even basic GUI choices impact usability.
+  
+---
+
+## Features
 
 - **Web scraping with Selenium:** Dynamically fetches general knowledge questions from a public website.
 - **Randomized quizzes:** Each game presents a unique set of 10 questions.
@@ -16,7 +30,7 @@ I wanted to take a beginner project and take it up one notch to test skills lear
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Requirements
 
@@ -32,7 +46,7 @@ I wanted to take a beginner project and take it up one notch to test skills lear
 
 ### Installation
 
-1️⃣ Clone the repo:
+1. Clone the repo:
 ```bash
 git clone https://github.com/Ardit-Islami/quiz-game-cli.git
 cd quiz-game-cli
